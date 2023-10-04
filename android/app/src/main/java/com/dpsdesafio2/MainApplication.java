@@ -73,8 +73,8 @@ public class MainApplication extends Application implements ReactApplication {
   }
 
   @Override
-  public void onConfigurationChanged(@NonNull Configuration newConfig) {
-    super.onConfigurationChanged(newConfig);
-    ApplicationLifecycleDispatcher.onConfigurationChanged(this, newConfig);
+  public void onConfigurationChangeTextd(@NonNull Configuration newConfig) {
+    super.onConfigurationChangeTextd(newConfig);
+    ApplicationLifecycleDispatcher.onConfigurationChangeTextd(this, newConfig);
   }
 }
